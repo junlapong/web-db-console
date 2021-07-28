@@ -12,6 +12,10 @@ from: https://github.com/benelog/web-db-console
 ```
 cd web-db-console
 mvn exec:java
+
+# or
+make package
+make run
 ```
 
 3. Your web browser will show the UI of H2 Console.
@@ -26,24 +30,6 @@ The following example as below.
 	<dependency>
 		<groupId>mysql</groupId>
 		<artifactId>mysql-connector-java</artifactId>
-		<version>8.0.25</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.mariadb.jdbc</groupId>
-		<artifactId>mariadb-java-client</artifactId>
-		<version>2.7.3</version>
-	</dependency>
-
-	<dependency>
-		<groupId>org.postgresql</groupId>
-		<artifactId>postgresql</artifactId>
-		<version>42.2.22</version>
-	</dependency>
-
-	<dependency>
-		<groupId>com.ibm.db2.jcc</groupId>
-		<artifactId>db2jcc</artifactId>
-		<version>db2jcc4</version>
+		<version>8.0.26</version>
 	</dependency>
 ```
