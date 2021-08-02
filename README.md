@@ -16,6 +16,9 @@ mvn exec:java
 # or
 make package
 make run
+
+# Windows
+run.bat
 ```
 
 3. Your web browser will show the UI of H2 Console.
