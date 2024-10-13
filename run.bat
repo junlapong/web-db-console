@@ -1,5 +1,5 @@
 @echo off
 
-java -jar target/db-console-jar-with-dependencies.jar
+java -jar target/web-db-console.jar -browser -webAllowOthers
 
 @echo on
